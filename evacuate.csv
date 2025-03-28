@@ -1,0 +1,26 @@
+name,value,comment
+crowd_size,65,must be int: 130 by formula but looks too busy
+diameter,18,must be int: of a person in inches
+exit_size,36,must be int: Side length of the square exit in inches
+frame_duration,100,must be int: length of the simulation
+responder_deployment,10,must be int: responder spends this many frames in corner
+response_time,0.3125,0 = immediate response
+room_length,100,must be int: in feet python converts to inches
+room_width,20,must be int: in feet python converts to inches
+civilian_able_velocity_initial,4,feet/sec python converts to inches
+civilian_able_velocity_limit,18,feet/sec python converts to inches
+civilian_challenged_velocity_initial,1.5,feet/sec python converts to inches
+civilian_challenged_velocity_limit,3,feet/sec python converts to inches
+responder_fireman_velocity_initial,15,feet/sec python converts to inches
+responder_fireman_velocity_limit,23,feet/sec python converts to inches
+responder_medical_velocity_initial,13,feet/sec python converts to inches
+responder_medical_velocity_limit,21,feet/sec python converts to inches
+civilian_keen_vision_factor,0.7,0 < factor <= 1
+civilian_foggy_vision_factor,0.1,0 < factor <= 1
+responder_fireman_vision_factor,1,0 < factor <= 1
+responder_medical_vision_factor,0.4,0 < factor <= 1
+evac_debug,False,toggle on/off tons of debugging output
+max_train,4,must be int: how many training runs to complete
+max_trials,2,must be int: how many simulations to run
+train_width,1,must be int: width of max_train integer
+trial_width,1,must be int: width of max_trial integer
